@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/LoginActionbarStyle</item>
+        <item name="android:navigationBarColor">#ff0000</item>
+    </style>
+
+    <style name="AppTheme1" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/LoginActionbarStyle</item>
+        <item name="android:navigationBarColor">#fff000</item>
+    </style>
+
+    <style name="LoginActionbarStyle" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <!-- 设置actionbar 背景色 透明 -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundStacked">@android:color/transparent</item>
+        <item name="android:backgroundSplit">@android:color/transparent</item>
+    </style>
+
+</resources>
